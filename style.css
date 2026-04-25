@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #145592;
     font-family:'Courier New', Courier, monospace
@@ -105,27 +109,42 @@ h1 {
 
 nav {
     display: flex;
-    justify-content: right;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
     width: 100%;
-    border: 2px;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 0.6);
+    max-width: 100%;
+    padding: 16px 24px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
     border-radius: 15px;
-    background: rgb(18, 73, 125)
+    background: rgba(18, 73, 125, 0.95);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.18);
+    box-sizing: border-box;
+}
+
+nav h2 {
+    margin: 0;
+    color: white;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 nav div {
     display: flex;
+    justify-content: flex-end;
+    width: auto;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 15px;
-    padding: 20;
+    margin: 0;
+    padding: 0;
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     align-items: center;
-    background: inherit;
     justify-content: center;
 }
 
@@ -135,18 +154,29 @@ nav ul li {
 
 nav ul li a {
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     text-align: center;
-    padding: 16px 20px;
+    padding: 12px 18px;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     font-weight: 500;
-    border-style: solid;
-    border-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
 }
 
-nav h2 {
-    text-align: left;
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.18);
+}
+
+h3 {
     color: white;
-    margin-right: 480px;
+    text-align: center;
+}
+
+section div ul {
+    list-style:circle;
+    color: white;
 }
