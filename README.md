@@ -77,3 +77,9 @@ You contribute to this project if you want to add your own notes for the topic o
 you can replace my notes with your one. However please keep the css styling.
 
 5. Once you have finished adding your own notes, commit everything and create a pull request on this github!
+
+# Note to reviewers
+
+As you know by now, This project isn't finished! I still have to finish adding all of my notes for Germany which will take me a very long amount of time and I still have to finish adding all my notes for Civil Rights as I haven't completely finished that either!
+
+I know that this not complete and that I have spent a long time on this but please do not deduct any hours from here as I have hand copied all my hand written notes form my book as well as hand copied the notes from my textbook, This has actually taken that long of a time too do so. I really appreciate your understanding in this.
